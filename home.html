@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agdasima&family=Cambo&family=Open+Sans&family=Public+Sans&family=Rubik&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                },
+                fontFamily: {
+                    'mono': 'Space Mono',
+                },
+                extend: {
+                    colors: {
+                        'yellow': '#FCB72B',
+                        'navy': '#495567',
+                        'dim': '#939CAA',
+                        'grey': '#E5ECF4',
+                        'snow': '#F2F5F9',
+                        'lyellow': '#FFF4DF'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="text-mono">
+    <header class="container sticky top-0 flex flex-row justify-between items-center py-5 bg-white z-10">
+        <p class="sm:hidden flex text-yellow text-3xl">≡</p>
+        <div class="flex flex-row">
+            <a class="sm:mr-10 mr-40 font-semibold flex justify-center sm:justify-start" href="home.html">scoot</a>
+            <nav class="gap-5 sm:flex flex-row hidden">
+                <a href="about.html">About</a>
+                <a href="careers.html">Careers</a>
+                <a href="location.html">Locations</a>
+            </nav>
+        </div>
+        <button class="bg-yellow px-5 py-2 text-white hidden sm:flex">Get Scootin</button>
+    </header>
+    <section class="container text-center lg:text-start text-white flex flex-col">
+        <div class="relative h-[650px]">
+            <img class="-z-10 absolute object-cover lg:w-[1440px] md:w-[768px] w-[687px] h-[650px]"
+                src="/Новая папка (2)/motosikl.jpg" alt="">
+            <div class="xl:mt-56 mt-40">
+                <h1 class="text-4xl font-semibold mx-auto xl:ml-36">Scooter Sharing <br> Made Simple</h1>
+            </div>
+            <div class="mt-2 flex flex-row gap-10 ml-20 xl:ml-0">
+                <img class="mb-12 hidden xl:flex" src="/Новая папка (2)/tayoq.svg" alt="">
+                <div class="w-[400px] flex flex-col">
+                    <p class="">Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient
+                        locations in
+                        each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re
+                        away!</p>
+                    <button
+                        class="w-56 h-10 bg-yellow border-yellow text-sm border-2 border-solid hover:bg-white hover:text-yellow">Get
+                        Scootin</button>
+                </div>
+                <img class="xl:mt-12 relative top-48 right-96 xl:top-0 xl:right-0 ml-0"
+                    src="/Новая папка (2)/strelka.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container flex flex-col lg:flex-row justify-around gap-32 ml-32 my-10">
+        <div class="flex flex-col sm:flex-row md:flex-col w-80">
+            <img class="w-20 h-20" src="/Новая папка (2)/telefon.svg" alt="">
+            <div class="flex flex-col">
+                <h6 class="text-xl font-semibold">Locate with app</h6>
+                <p>Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas
+                    with
+                    most demand, so one should never be too far away. </p>
+            </div>
+        </div>
+        <div class="flex flex-col sm:flex-row md:flex-col w-80">
+            <img class="w-20 h-20" src="/Новая папка (2)/skutersiz.svg" alt="">
+            <div class="flex flex-col">
+                <h6 class="text-xl font-semibold">Pick your scooter</h6>
+                <p>We show the most important info for the scooters closest to you. So you know how much charge they
+                    have left and can see roughly how much it will cost.</p>
+            </div>
+        </div>
+        <div class="flex flex-col sm:flex-row md:flex-col w-80">
+            <img class="w-20 h-20" src="/Новая папка (2)/skuterli.svg" alt="">
+            <div class="flex flex-col">
+                <h6 class="text-xl font-semibold">Enjoy to ride</h6>
+                <p>Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off!
+                    Always lock bikes away from walkways and accessibility ramps.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container flex flex-col">
+        <div class="flex flex-row justify-between items-center my-3">
+            <div class="w-[440px]">
+                <h2 class="text-5xl font-semibold">Easy for use Reading telemetry</h2>
+                <p>The Scoot app is available with riding telemetry. This means it can show you your average speed, how
+                    long
+                    you've been using the scooter, your traveling distance, and many more things all in an easy to use
+                    app.
+                </p>
+                <button
+                    class="w-56 h-10 bg-yellow border-yellow text-sm border-2 border-solid hover:bg-white hover:text-yellow">Learn
+                    more</button>
+            </div>
+            <div class="my-auto">
+                <img class="my-auto" src="/Новая папка (2)/bolali.png" alt="">
+            </div>
+        </div>
+        <div class="flex flex-row-reverse justify-between items-center my-3">
+            <div class="w-[440px]">
+                <h2 class="text-5xl font-semibold">Coming to a city ner you</h2>
+                <p>Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if
+                    you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the
+                    coming year.
+                </p>
+                <button
+                    class="w-56 h-10 bg-yellow border-yellow text-sm border-2 border-solid hover:bg-white hover:text-yellow">Learn
+                    more</button>
+            </div>
+            <div class="my-auto">
+                <img class="my-auto" src="/Новая папка (2)/gorod.png" alt="">
+            </div>
+        </div>
+        <div class="flex flex-row justify-between items-center my-3">
+            <div class="w-[440px]">
+                <h2 class="text-5xl font-semibold">Zero hassle paymets</h2>
+                <p>Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also
+                    link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up
+                    to a month.
+                </p>
+                <button
+                    class="w-56 h-10 bg-yellow border-yellow text-sm border-2 border-solid hover:bg-white hover:text-yellow">Learn
+                    more</button>
+            </div>
+            <div class="my-auto">
+                <img class="my-auto" src="/Новая папка (2)/pul.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container bg-dim flex flex-col text-center lg:text-start lg:flex-row py-10 items-center justify-between px-10">
+        <h6 class="text-3xl font-semibold">Sign up and <br>Scoot off today</h6>
+        <img class="w-40 h-9" src="/Новая папка (2)/appplay.png" alt="">
+    </section>
+    <footer class="container flex flex-row justify-between items-center bg-navy bottom-0 text-white py-5 px-1 xl:px-10">
+        <div class="flex flex-row">
+            <a class="sm:mr-10 mr-40 font-semibold flex justify-center sm:justify-start" href="home.html">scoot</a>
+            <nav class="gap-5 sm:flex flex-row hidden">
+                <a href="about.html">About</a>
+                <a href="careers.html">Careers</a>
+                <a href="location.html">Locations</a>
+            </nav>
+        </div>
+        <div class="flex flex-row gap-10">
+            <img src="/Новая папка (2)/facebook.png" alt="">
+            <img src="/Новая папка (2)/twitter.png" alt="">
+            <img src="/Новая папка (2)/instagram.png" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agdasima&family=Cambo&family=Open+Sans&family=Public+Sans&family=Rubik&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                },
+                fontFamily: {
+                    'mono': 'Space Mono',
+                },
+                extend: {
+                    colors: {
+                        'yellow': '#FCB72B',
+                        'navy': '#495567',
+                        'dim': '#939CAA',
+                        'grey': '#E5ECF4',
+                        'snow': '#F2F5F9',
+                        'lyellow': '#FFF4DF'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="text-mono">
+    <header class="container sticky top-0 flex flex-row justify-between items-center py-5 bg-white z-10">
+        <p class="sm:hidden flex text-yellow text-3xl">≡</p>
+        <div class="flex flex-row">
+            <a class="sm:mr-10 mr-40 font-semibold flex justify-center sm:justify-start" href="home.html">scoot</a>
+            <nav class="gap-5 sm:flex flex-row hidden">
+                <a href="about.html">About</a>
+                <a href="careers.html">Careers</a>
+                <a href="location.html">Locations</a>
+            </nav>
+        </div>
+        <button class="bg-yellow px-5 py-2 text-white hidden sm:flex">Get Scootin</button>
+    </header>
+    <section class="container">
+        <div class="flex flex-row justify-between items-center my-3">
+            <div class="w-[440px]">
+                <h2 class="text-5xl font-semibold">Care to join our mission</h2>
+                <p>We’re always looking for ambitious individuals to help us on our journey. If you’re passionate about
+                    our mission to provide clean, accessible transport to improve urban living we want to hear from you!
+                </p>
+                <button
+                    class="w-56 h-10 bg-yellow border-yellow text-sm border-2 border-solid hover:bg-white hover:text-yellow">Learn
+                    More</button>
+            </div>
+            <div class="my-auto">
+                <img class="my-auto" src="/Новая папка (2)/ustoz.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container flex flex-col">
+        <h2 class="text-3xl font-semibold text-center my-5">Why join us?</h2>
+        <div class="flex flex-row justify-around">
+            <div class="flex flex-col text-center w-80">
+                <img src="/Новая папка (2)/01.png" alt="">
+                <h6 class="text-xl font-semibold">Our tech</h6>
+                <p>We’re using cutting edge technology to drive accessible urban transportation forward. Our fully
+                    electric scooters are a joy to ride!</p>
+            </div>
+            <div class="flex flex-col text-center w-80">
+                <img src="/Новая папка (2)/02.png" alt="">
+                <h6 class="text-xl font-semibold">Our integrity</h6>
+                <p>We are fully committed to deliver a great yet safe, sustainable micro-mobility experience in every
+                    city we serve.</p>
+            </div>
+            <div class="flex flex-col text-center w-80">
+                <img src="/Новая папка (2)/03.png" alt="">
+                <h6 class="text-xl font-semibold">Our community</h6>
+                <p>We support every community we serve. All workers are paid a living wage based on their location and
+                    are Scoot employees.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container flex flex-col">
+        <div class="flex flex-row justify-between items-center px-5 h-20 bg-snow mb-5">
+            <div>
+                <h6 class="font-semibold mb-2">General Manager</h6>
+                <p>Jakarta,Indonesia</p>
+            </div>
+            <button
+                class="w-56 h-10 bg-yellow border-yellow text-sm border-2 border-solid hover:bg-white hover:text-yellow">Appply</button>
+        </div>
+        <div class="flex flex-row justify-between items-center px-5 h-20 bg-snow mb-5">
+            <div>
+                <h6 class="font-semibold mb-2">UI/UX Desiger</h6>
+                <p>Yokohama, Japan</p>
+            </div>
+            <button
+                class="w-56 h-10 bg-yellow border-yellow text-sm border-2 border-solid hover:bg-white hover:text-yellow">Appply</button>
+        </div>
+        <div class="flex flex-row justify-between items-center px-5 h-20 bg-snow mb-5">
+            <div>
+                <h6 class="font-semibold mb-2">Blog Content Copywriter</h6>
+                <p>New York, United States</p>
+            </div>
+            <button
+                class="w-56 h-10 bg-yellow border-yellow text-sm border-2 border-solid hover:bg-white hover:text-yellow">Appply</button>
+        </div>
+        <div class="flex flex-row justify-between items-center px-5 h-20 bg-snow mb-5">
+            <div>
+                <h6 class="font-semibold mb-2">Graphic Designer</h6>
+                <p>New York, United States</p>
+            </div>
+            <button
+                class="w-56 h-10 bg-yellow border-yellow text-sm border-2 border-solid hover:bg-white hover:text-yellow">Appply</button>
+        </div>
+        <div class="flex flex-row justify-between items-center px-5 h-20 bg-snow mb-5">
+            <div>
+                <h6 class="font-semibold mb-2">Fleet Supervisor</h6>
+                <p>Jakarta, Indonesia</p>
+            </div>
+            <button
+                class="w-56 h-10 bg-yellow border-yellow text-sm border-2 border-solid hover:bg-white hover:text-yellow">Appply</button>
+        </div>
+        <div class="flex flex-row justify-between items-center px-5 h-20 bg-snow mb-5">
+            <div>
+                <h6 class="font-semibold mb-2">UX Analyst</h6>
+                <p>London, United Kingdom</p>
+            </div>
+            <button
+                class="w-56 h-10 bg-yellow border-yellow text-sm border-2 border-solid hover:bg-white hover:text-yellow">Appply</button>
+        </div>
+    </section>
+    <section
+        class="container bg-dim flex flex-col text-center lg:text-start lg:flex-row py-10 items-center justify-between px-10">
+        <h6 class="text-3xl font-semibold">Sign up and <br>Scoot off today</h6>
+        <img class="w-40 h-9" src="/Новая папка (2)/appplay.png" alt="">
+    </section>
+    <footer class="container flex flex-row justify-between items-center bg-navy bottom-0 text-white py-5 px-1 xl:px-10">
+        <div class="flex flex-row">
+            <a class="sm:mr-10 mr-40 font-semibold flex justify-center sm:justify-start" href="home.html">scoot</a>
+            <nav class="gap-5 sm:flex flex-row hidden">
+                <a href="about.html">About</a>
+                <a href="careers.html">Careers</a>
+                <a href="location.html">Locations</a>
+            </nav>
+        </div>
+        <div class="flex flex-row gap-10">
+            <img src="/Новая папка (2)/facebook.png" alt="">
+            <img src="/Новая папка (2)/twitter.png" alt="">
+            <img src="/Новая папка (2)/instagram.png" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>
